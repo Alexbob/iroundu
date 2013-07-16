@@ -1,0 +1,306 @@
+body,a,td,tr,div,span,p,li,ul{
+	padding:0;
+	margin:0;
+	font-family:宋体;
+	font-size:12px;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.5;
+    background: url("../img/background.jpg");
+    background-repeat:no-repeat;
+    color: #3E1E1E;
+}
+
+ul,li{
+	text-decoration:none;
+	list-style:none;
+}
+a{
+	cursor:pointer;
+}
+#wrap{
+	margin:0 auto;
+    top: 137px;
+	width:1000px;
+	height:700px;
+}
+#nav{
+    background:transparent url('../img/nav.png');
+    background-repeat:repeat-x;
+    margin:0 auto;
+    height:90px;
+
+}
+
+#nav .logo{
+    background:transparent url('../img/iroundu.png') no-repeat;
+    position: absolute;
+    top: 12px;
+    left: 66px;
+    height: 52px;
+    width: 164px;
+
+}
+
+#nav .slo{
+    position: absolute;
+    top: 36px;
+    left: 270px;
+    height: 21px;
+    width: 219px;
+    font-family:宋体;
+    font-size:20px;
+}
+
+#nav .renren{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    height: 36px;
+    width: 36px;
+}
+
+#nav .tweibo{
+    position: absolute;
+    top: 20px;
+    right: 96px;
+    height: 36px;
+    width: 36px;
+}
+
+#nav .weibo{
+    position: absolute;
+    top: 20px;
+    right: 162px;
+    height: 36px;
+    width: 36px;
+}
+
+#nav .aboutus{
+    position: absolute;
+    top: 30px;
+    right: 220px;
+    height: 12px;
+    width: 48px;
+    font-family:宋体;
+    font-size:12px;
+}
+
+#nav .feedbak{
+    position: absolute;
+    top: 30px;
+    right: 275px;
+    height: 12px;
+    width: 48px;
+    font-family:宋体;
+    font-size:12px;
+}
+
+#app_left{
+    height: 590px;
+    position: absolute;
+    top: 123px;
+    width: 336px;
+}
+#wrap .view{
+	background: url("../img/phone.png") no-repeat scroll 0 0 transparent;
+    height: 740px;
+    overflow: hidden;
+    width: 340px;
+}
+#container{
+    height:510px;
+    left: 26px;
+    overflow: hidden;
+    position: absolute;
+    top: 67px;
+    width: 287px;
+}
+#slider{
+    height: 510px;
+    position: absolute;
+    width: 1147px;}
+#wrap .control {
+    bottom: -105px;
+    height: 10px;
+    left: 106px;
+    position: absolute;
+}
+#wrap .control ul li{
+	background:transparent url('../img/control0.png') no-repeat scroll center center;
+	width:33px;
+	height:20px;
+	float:left;
+	cursor:pointer;
+	text-indent:-9999px;
+}
+#app_left .control ul li.imgon{
+	background:transparent url('../img/control1.png') no-repeat scroll center center;
+}
+
+#app_right{
+    float: right;
+    height: 900px;
+    width: 620px;
+    position: relative;
+    top: 33px;
+}
+
+
+#app_right .download_qr {
+background:transparent url('../img/img_qr.png') no-repeat;
+left: 110px;
+width:150px;
+height:150px;
+float:left;
+position:relative;
+}
+
+.mainContent {
+margin-bottom:30px;
+overflow:hidden;
+}
+
+.mainContent .col01 {
+width:610px;
+height:468px;
+background:url("../img/reco_back.png");
+float:left;
+overflow:hidden;
+}
+
+.mainContent .android_download {
+width:274px;
+height:90px;
+position:relative;
+top:2px;
+left:50px;
+float:left;
+overflow:hidden;
+}
+
+.mainContent .ios_download {
+width:274px;
+height:90px;
+position:relative;
+top:0px;
+left:65px;
+background:url("../img/ios_download.png");
+float:left;
+overflow:hidden;
+}
+
+
+.mainContent .col01 .news {
+width:500px;
+float:left;
+height:420px;
+position:relative;
+left: 80px;
+top:25px;
+}
+
+.mainContent .col01 .news ul.ntitle {
+position: relative;
+top: 10px;
+left: 50px;
+display:block;
+width:348px;
+height:33px;
+margin-bottom:15px;
+}
+
+.mainContent .col01 .news ul.ntitle li {
+display:block;
+float:left;
+width:120px;
+}
+
+.mainContent .col01 .news ul.ntitle li.ntitle03 {
+width:108px;
+border-bottom:2px solid #D3D3D3;
+height:33px;
+}
+
+.mainContent .col01 .news ul.ntitle li a {
+display:block;
+float:left;
+width:120px;
+height:20px;
+line-height:20px;
+border-bottom:2px solid #d3d3d3;
+padding:5px 0 8px;
+}
+
+.mainContent .col01 .news ul.ntitle li a.titleactive {
+padding: 5px 0 7px;
+border-bottom: 3px solid #06b0ff;
+}
+
+.mainContent .col01 .news ul.ntitle li a.titlenormal:hover {
+padding: 5px 0 7px;
+border-bottom: 3px solid #06b0ff;
+}
+
+
+.mainContent .col01 .news ul.ntitle li.ntitle01 a span.ntimg,.mainContent .col01 .news ul.ntitle li.ntitle02 a span.ntimg {
+display:block;
+float:left;
+width:64px;
+height:20px;
+}
+
+.mainContent .col01 .news ul.ntitle li a span.ntcon {
+font-size:25px;
+font-weight:700;
+line-height:20px;
+color:#555;
+}
+
+.mainContent .col01 .news ul.ntitle li.ntitle02 a span.ntimg {
+background-position:-80px -130px;
+}
+
+.mainContent .col01 .news .newscon .latest .latestcon {
+display:block;
+position: relative;
+top: 10px;
+left: 40px;
+width:348px;
+padding:30px 0px;
+}
+
+.mainContent .col01 .news .newscon .latest #latestcon1 {
+height:42px;
+}
+
+.mainContent .col01 .news .newscon .latest .latestcon img {
+display:block;
+float:left;
+margin-right:5px;
+}
+
+.mainContent .col01 .news .newscon .latest .latestcon a {
+color:#555;
+font-size:12px;
+}
+
+.mainContent .col01 .news .newscon .latest .latestcon a span.lctitle {
+font-size:18px;
+font-weight:400;
+display:block;
+}
+
+
+font.latestdate,font.digitaldate,.mainContent .col01 .news .newscon .latest .latestcon a span.lcdesc {
+color:#999;
+font-weight:400;
+}
+
+.mainContent .col01 .news .newscon .latest .latestcon a:hover,.mainContent .col01 .news .newscon .latest .latestcon a:hover span.lcdesc {
+color:#06b0ff;
+}
+
+.audiojs { margin: 0px 80px 50px; }

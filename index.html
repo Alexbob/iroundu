@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<title>iroundu</title>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link type="text/css" href="skin/blue.monday/jplayer.blue.monday.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery.min.js" ></script>
+    <script type="text/javascript" src="jplayer/jquery.jplayer.min.js" ></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#jquery_jplayer_1").jPlayer({
+                ready: function () {
+                    $(this).jPlayer("setMedia", {
+                        m4a: "sound/1.mp3",
+                        oga: "sound/1.mp3"
+                    });
+                },
+                swfPath: "jplayer",
+                supplied: "m4a, oga"
+            });
+        });
+    </script>
+    <style type="text/css" media="all">
+        a img {
+            border:none;
+        }
+    </style>
+</head>    
+<body>
+    <div id="nav">
+        <div class="logo"></div>
+        <div class="slo">让世界倾听我们的声音</div>
+        <div class="renren">
+            <a href="http://goo.gl/q64Lm" target="_blank"><img src="img/nav_renren.png" /></a>
+        </div>
+        <div class="tweibo">
+            <a href="http://goo.gl/RnZ9I" target="_blank"><img src="img/nav_tweibo.png" /></a>
+        </div>
+        <div class="weibo">
+            <a href="http://goo.gl/Mc46X" target="_blank"><img src="img/nav_weibo.png" /></a>
+        </div>
+        <div class="aboutus">
+            <a href="_self" target="_blank">关于我们</a>
+        </div>
+        <div class="feedbak">
+            <a href="_self" target="_blank">意见反馈</a>
+        </div>
+    </div>
+    <div id="wrap">
+        <div id="app_left">
+            <div id="container">
+                <div id="slider" style="left:0px;">
+                    <img src="img/imags.jpg" />
+                </div>
+            </div>
+            <div class="view"></div>
+            <div class="control">
+                <ul id="changebtn">
+                    <li class="imgon">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                </ul>
+            </div>
+        </div>
+
+<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+  <div id="jp_container_1" class="jp-audio">
+    <div class="jp-type-single">
+      <div class="jp-gui jp-interface">
+        <ul class="jp-controls">
+          <li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
+          <li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
+          <li><a href="javascript:;" class="jp-stop" tabindex="1">stop</a></li>
+          <li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">mute</a></li>
+          <li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a></li>
+          <li><a href="javascript:;" class="jp-volume-max" tabindex="1" title="max volume">max volume</a></li>
+        </ul>
+        <div class="jp-progress">
+          <div class="jp-seek-bar">
+            <div class="jp-play-bar"></div>
+          </div>
+        </div>
+        <div class="jp-volume-bar">
+          <div class="jp-volume-bar-value"></div>
+        </div>
+        <div class="jp-time-holder">
+          <div class="jp-current-time"></div>
+          <div class="jp-duration"></div>
+          <ul class="jp-toggles">
+            <li><a href="javascript:;" class="jp-repeat" tabindex="1" title="repeat">repeat</a></li>
+            <li><a href="javascript:;" class="jp-repeat-off" tabindex="1" title="repeat off">repeat off</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="jp-no-solution">
+        <span>Update Required</span>
+        To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+      </div>
+    </div>
+</div>
+
+        <div id="app_right">
+            <div class="mainContent wrap">
+                <div class="col01">
+                    <div class="news">
+                        <ul class="ntitle">
+                            <li class="ntitle01">
+                                <a class="titleactive" href target="_self" style="text-decoration:none">
+                                    <span class="ntcon">热门声音</span>
+                                </a>
+                            </li>
+                            <li class="ntitle02">
+                                <a class="titlenormal" href target="_self" style="text-decoration:none">
+                                    <span class="ntcon">会员推荐</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="newscon">
+                            <div class="latest" id="latest" style="display:block;">
+                                <div class="latestcon" id="latestcon1">
+                                    <img src="img/head1.png" />
+                                    <a href="_self" target="_self" style="text-decoration:none">
+                                        <span class="lctitle">#原创##音乐#大师#师大妹子歌</span>
+                                    </a>
+                                    
+                                </div>
+                                <div class="latestcon" id="latestcon1">
+                                    <img src="img/head2.png" />
+                                    <a href="_self" target="_self" style="text-decoration:none">
+                                        <span class="lctitle">#原创##音乐#安静</span>
+                                    </a>
+                                    <img src="img/play.png" />
+                                </div>
+                                <div class="latestcon" id="latestcon1">
+                                    <img class="lconimg" src="img/head3.png" />
+                                    <a href="_self" target="_self" style="text-decoration:none">
+                                        <span class="lctitle">#翻唱##音乐#不能说的秘密</span>
+                                    </a>
+                                    <img src="img/play.png" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="android_download">
+                    <a href="http://goo.gl/3dXfQ">
+                        <img src="img/android_donwnload.png">
+                    </a>
+                </div>
+                <div class="ios_download"></div>
+            </div>
+            <div class="download_qr"></div>
+        </div>
+    </div>
+    <script>
+        function Slider(container, trigger, content, totalpage, timedur) {
+            this.container = container;
+            this.trigger = trigger;
+            this.content = content;
+            this.timer = null;
+            this.curpage = 0;
+            this.totalpage = totalpage;
+            this.timedur = timedur;
+            this.step = this.container.width();
+            this.init();
+        }
+        Slider.prototype = {
+            init: function () {
+                this.start();
+                this.initEvent();
+            },
+            initEvent: function () {
+                var self = this;
+                this.trigger.mouseover(function () {
+                    self.stop();
+                    self.play(parseInt($(this).html()));
+                }).mouseout(function () {
+                    self.start();
+                });
+            },
+            play: function (n) {
+                n && (this.curpage = n - 1);
+                this.content.animate({
+                    "left": -(this.step * this.curpage)
+                }, 1000);
+                this.trigger.removeClass("imgon");
+                this.trigger[this.curpage].className = 'imgon';
+                if (this.curpage == this.totalpage - 1) {
+                    this.curpage = 0;
+                } else {
+                    this.curpage++;
+                }
+            },
+            start: function () {
+                var self = this;
+                this.timer = setInterval(function () {
+                    self.play();
+                }, this.timedur);
+            },
+            stop: function () {
+                clearInterval(this.timer);
+            }
+        }
+        new Slider($("#container"), $("#changebtn li"), $("#slider"), 4, 4000);
+    </script>
+</body></html>
